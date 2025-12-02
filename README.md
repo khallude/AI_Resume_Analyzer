@@ -1,7 +1,7 @@
-AI Resume Analyzer
-A complete end-to-end AI-powered resume analysis application built with React, Tailwind CSS, Flask, and NLP.
-
-1. Overview
+**AI Resume Analyzer
+**A complete end-to-end AI-powered resume analysis application built with React, Tailwind CSS, Flask, and NLP.
+**
+1. Overview**
 The AI Resume Analyzer is a web application that processes resumes (PDF/DOCX) and provides:
 
 Extracted skills
@@ -13,8 +13,8 @@ Actionable suggestions for improvement
 Simple AI-powered insights based on resume content
 
 It combines a modern React frontend with a Python Flask backend and basic NLP logic to simulate how an Applicant Tracking System (ATS) evaluates resumes.
-
-2. Motivation
+**
+2. Motivation**
 This project was built to:
 
 Practise real-world full-stack development
@@ -32,8 +32,8 @@ Design custom skill extraction and scoring logic
 Experiment with UI animations (Framer Motion)
 
 Working on this project gave a deeper understanding of how ATS systems parse and evaluate resumes in practice.
-
-3. Key Features
+**
+3. Key Features**
 AI-Powered Resume Insights
 Extracts text from uploaded PDF and DOCX files
 
@@ -69,8 +69,8 @@ DOCX parsing using python-docx
 Simple, clean file handling and preprocessing
 
 CORS enabled for frontend–backend communication
-
-4. Tech Stack
+**
+4. Tech Stack**
 Frontend
 React (Vite)
 
@@ -90,5 +90,83 @@ pdfplumber
 python-docx
 
 Custom NLP / text-processing logic
+**
+5. Project Structure**
+ai-resume-analyzer/
+│
+├── frontend/               # React + Tailwind UI
+│   ├── src/
+│   ├── App.jsx
+│   ├── index.css
+│   └── vite.config.js
+│
+├── backend/                # Flask API
+│   ├── app.py
+│   ├── requirements.txt
+│   └── uploads/
+│
+└── README.md
 
-5. Project Structure
+**6. Installation and Setup****
+6.1 Backend**
+   cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
+
+The backend will run at:
+
+http://127.0.0.1:5000
+**
+6.2 Frontend**
+In a new terminal:
+cd frontend
+npm install
+npm run dev
+The frontend will run at:
+
+http://localhost:5173
+**
+7. Analysis Workflow**
+Extract text from resume
+
+PDF files → pdfplumber
+
+DOCX files → python-docx
+
+Preprocess text
+
+Convert to lowercase
+
+Basic cleaning (e.g., removing extra spaces or symbols)
+
+Skill matching
+
+Compare extracted text against a predefined list of skills
+
+Count matched skills
+
+Scoring
+
+Compute a simple resume score based on the number and diversity of matched skills
+
+Suggestions
+
+Provide improvement hints based on missing or low-frequency skills
+**
+8. Future Improvements**
+Planned enhancements:
+
+Job Description (JD) vs Resume matching
+
+GPT-based or LLM-based smart suggestions
+
+Visual skill graphs and analytics
+
+More realistic ATS scoring logic
+
+Downloadable analysis report (PDF/HTML)
+**
+9. Author
+    Khalid Mohamud Mohamed**
