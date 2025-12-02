@@ -1,7 +1,3 @@
-Here’s a more professional, structured version of your README that still keeps your personal touch and all the key details.
-
-***
-
 # AI Resume Analyzer
 
 A complete end-to-end AI-powered resume analysis application built with React, Tailwind CSS, Flask, and NLP.
