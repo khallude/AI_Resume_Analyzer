@@ -1,7 +1,7 @@
-**AI Resume Analyzer
-**A complete end-to-end AI-powered resume analysis application built with React, Tailwind CSS, Flask, and NLP.
-**
-1. Overview**
+AI Resume Analyzer
+A complete end-to-end AI-powered resume analysis application built with React, Tailwind CSS, Flask, and NLP.
+
+**1. Overview**
 The AI Resume Analyzer is a web application that processes resumes (PDF/DOCX) and provides:
 
 Extracted skills
