@@ -1,88 +1,78 @@
-🚀 AI Resume Analyzer
-A Complete End-to-End AI Project built using React, Tailwind CSS, Flask & NLP
-📌 Overview
+AI Resume Analyzer
+A complete end-to-end AI-powered resume analysis application built with React, Tailwind CSS, Flask, and NLP.
 
-The AI Resume Analyzer is a smart web application that analyzes resumes (PDF/DOCX) and provides:
+1. Overview
+The AI Resume Analyzer is a web application that processes resumes (PDF/DOCX) and provides:
 
-Skill extraction
+Extracted skills
 
-Resume score
+An overall resume score
 
-Suggestions to improve
+Actionable suggestions for improvement
 
-AI-powered insights
+Simple AI-powered insights based on resume content
 
-This project is built using Modern Frontend + Python Backend + NLP.
+It combines a modern React frontend with a Python Flask backend and basic NLP logic to simulate how an Applicant Tracking System (ATS) evaluates resumes.
 
-🎯 Why I Built This Project
+2. Motivation
+This project was built to:
 
-I built this project to learn and implement:
+Practise real-world full-stack development
 
-✔ Real-world Full-Stack Development
+Use React + Tailwind CSS to design a clean, modern UI
 
-✔ React + Tailwind for professional UI
+Implement a Flask backend for text processing and analysis
 
-✔ Flask + NLP for backend analysis
+Parse resumes in PDF and DOCX formats
 
-✔ Resume Parsing (PDF + DOCX)
+Integrate frontend and backend via REST APIs
 
-✔ End-to-End API integration
+Design custom skill extraction and scoring logic
 
-✔ Skill extraction logic
+Experiment with UI animations (Framer Motion)
 
-✔ Animated UI using Framer Motion
+Working on this project gave a deeper understanding of how ATS systems parse and evaluate resumes in practice.
 
-This project helped me understand how real ATS (Applicant Tracking Systems) work.
+3. Key Features
+AI-Powered Resume Insights
+Extracts text from uploaded PDF and DOCX files
 
-✨ Key Features
-🧠 AI-Powered Resume Insights
+Identifies technical skills from a predefined skills list
 
-Extracts text from uploaded PDF/DOCX
+Calculates a resume “strength” score based on matched skills
 
-Identifies technical skills
+Generates basic suggestions to improve the resume
 
-Calculates resume strength score
+Modern, Responsive UI
+Built with React and Tailwind CSS
 
-Gives suggestions to improve your resume
+Custom gradients, glassmorphism effects, and animated buttons
 
-🎨 Beautiful Modern UI
+Smooth transitions using Framer Motion
 
-Tailwind CSS
+Fully responsive layout for different screen sizes
 
-Custom gradients
+Custom File Upload Experience
+Custom “Choose File” button (replaces default browser styling)
 
-Glassmorphism
+Displays the selected filename
 
-Animated buttons
+Clean and user-friendly upload flow
 
-Framer Motion transitions
-
-Mobile responsive design
-
-🔥 Custom "Choose File" Button
-
-No default ugly browser styles
-
-Clean & modern UI
-
-Shows selected filename
-
-⚙️ Fully Functional Backend
-
-Python Flask API
+Robust Backend
+Python Flask API to handle uploads and analysis
 
 PDF parsing using pdfplumber
 
 DOCX parsing using python-docx
 
-Clean file handling
+Simple, clean file handling and preprocessing
 
-CORS enabled for frontend access
+CORS enabled for frontend–backend communication
 
-🏗 Tech Stack
+4. Tech Stack
 Frontend
-
-React + Vite
+React (Vite)
 
 Tailwind CSS
 
@@ -91,7 +81,6 @@ Framer Motion
 Custom CSS animations
 
 Backend
-
 Python
 
 Flask
@@ -100,78 +89,6 @@ pdfplumber
 
 python-docx
 
-NLP logic
+Custom NLP / text-processing logic
 
-📂 Project Structure
-ai-resume-analyzer/
-│
-├── frontend/        # React + Tailwind UI
-│   ├── src/
-│   ├── index.css
-│   ├── App.jsx
-│   ├── vite.config.js
-│
-├── backend/         # Flask API
-│   ├── app.py
-│   ├── requirements.txt
-│   ├── uploads/
-│
-└── README.md
-
-🚀 How to Run the Project
-▶️ 1. Run Backend
-
-Open terminal:
-
-cd backend
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
-
-
-Backend runs at:
-
-http://127.0.0.1:5000
-
-▶️ 2. Run Frontend
-cd frontend
-npm install
-npm run dev
-
-
-Frontend runs at:
-
-http://localhost:5173
-
-🧠 How the AI Analysis Works
-✔ 1. Extract text
-
-PDF → pdfplumber
-
-DOCX → python-docx
-
-✔ 2. Convert to lowercase text
-✔ 3. Match against a pre-defined skill list
-✔ 4. Count matched skills → calculate score
-✔ 5. Provide improvement suggestions
-📈 Future Improvements
-
-I plan to add:
-
-🔥 JD vs Resume Match
-
-🤖 GPT-based Smart Suggestions
-
-📊 Skill Graphs
-
-🎯 ATS Score
-
-📝 Downloadable Report
-
-❤️ Author
-
-Karibugatha Yaswanth
-Passionate AI/ML Developer | Full-Stack Learner
-
-🎉 DONE!
+5. Project Structure
