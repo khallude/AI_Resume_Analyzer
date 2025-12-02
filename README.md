@@ -71,7 +71,8 @@ ai-resume-analyzer/
 │
 └── README.md
 
-**6. Installation and Setup****
+**6. Installation and Setup**
+
 **6.1 Backend**
    cd backend
 python -m venv venv
